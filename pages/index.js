@@ -149,22 +149,22 @@ export default function Home() {
           </SwiperSlide>
         </Swiper>
 
-        <div class="fixed-bottom sticky-footer">
+        <div className="fixed-bottom sticky-footer">
           <div className="d-flex justify-content-between align-items-center p-2">
-            <div class="text-center">
+            <div className="text-center">
               <div><i className="fas fa-home"></i></div>
               <div>Home</div>
             </div>
-            <div class="text-center">
+            <div className="text-center">
               <div><i className="fas fa-cart-arrow-down"></i></div>
               <div>Explore</div>
             </div>
             <div><i className="fas fa-plus-circle primary-text btn-add"></i></div>
-            <div class="text-center">
+            <div className="text-center">
               <div><i className="fas fa-comment-alt"></i></div>
               <div>Inbox</div>
             </div>
-            <div class="text-center">
+            <div className="text-center">
               <div><i className="fas fa-user"></i></div>
               <div>Profile</div>
             </div>
