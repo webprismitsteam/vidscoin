@@ -45,10 +45,9 @@ export default function Home({properties}) {
           {properties.map((value, index) => {
             const imageBaseUrl = 'https://cdn.sanity.io/images/6rm9ia7d/production/'
             let imageUrl = imageBaseUrl + value.mainImage.asset._ref.substring(6).replace('-png', '.png')
-            // console.log(imageUrl);
 
             return (
-              <SwiperSlide>
+              <SwiperSlide key={value._id}>
                 <div className="SwiperSlide">
                   <div className="container-fluid px-0">
                     <div className="d-flex justify-content-between align-items-center -border-bottom header-bottom px-2 pb-2">
